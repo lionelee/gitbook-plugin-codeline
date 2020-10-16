@@ -1,0 +1,37 @@
+{
+  "name": "gitbook-plugin-codeline",
+  "version": "0.1.0",
+  "description": "Gitbook plugin to add line numbers (start from arbitrary one) for code blocks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lionelee/gitbook-plugin-codeline.git"
+  },
+  "gitbook": {
+    "properties": {
+      "copyButtons": {
+        "default": true,
+        "title": "Adds buttons to copy the commands",
+        "type": "boolean"
+      }
+    }
+  },
+  "keywords": [
+    "gitbook",
+    "code",
+    "linenumber",
+    "plugin"
+  ],
+  "engines": {
+    "gitbook": ">2.5.0"
+  },
+  "author": "Lionel Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lionelee/gitbook-plugin-codeline/issues"
+  },
+  "homepage": "https://github.com/lionelee/gitbook-plugin-codeline#readme"
+}
