@@ -1,5 +1,5 @@
 {
-  "name": "gitbook-plugin-codeline",
+  "name": "@lionelee/gitbook-plugin-codeline",
   "version": "0.1.0",
   "description": "Gitbook plugin to add line numbers (start from arbitrary one) for code blocks",
   "main": "index.js",
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lionelee/gitbook-plugin-codeline.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "gitbook": {
     "properties": {
