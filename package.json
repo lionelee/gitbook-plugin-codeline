@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/lionelee/gitbook-plugin-codeline.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "gitbook": {
     "properties": {
       "copyButtons": {
