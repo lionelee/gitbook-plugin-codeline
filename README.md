@@ -22,7 +22,7 @@ int main(){
     std::cout << "Hello World" << std::endl;
     return 0;
 }
-{%- endcodetabs %}
+{%- endcodeline %}
 ```
 If you want to get rid of the copy buttons, add this section in `book.json`:
 
